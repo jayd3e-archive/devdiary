@@ -1,0 +1,1 @@
+on every social action, we need to verify an access token and permissions

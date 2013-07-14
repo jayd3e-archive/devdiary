@@ -20,4 +20,10 @@ old.replaceWith(this.$el);
 themselves and the creation of their children, all interface changes should be the result of
 a model changes in some way, and view events should define everything that the view can "do".
 
-- Cached elements will invalidate as you replace contents of this.$el.
+- Cached elements will invalidate as you replace contents of this.$el.\
+
+- jQuery.data() should only be called on page load to consume the page, never during execution.
+
+RANDOM CONCERN:  Let's thing about merging Comments and Solutions into one element in the future,
+if they never diverge.  The frontend code for the two modules is near identical!  It's becoming a huge
+duplication effort to keep the two in sync with one another.

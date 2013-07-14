@@ -1,0 +1,14 @@
+Lock feature in underscore?
+
+TODO:
+- Put beta in logo, so it is completely obvious
+- Have a method of retrieving a username
+- when you have a group selected, you need to be able to click post and the group will
+automagically get selected.
+
+- Come up with a variety of different functions, such as get_user_by_email, get_user_by_username, etc.  So
+that way there is a single method of retrieval for all of those types of elements.  Far easier to modify
+
+- Add a link to the comment from the email notification
+
+- Comment Hashes are not retained upon referrer login

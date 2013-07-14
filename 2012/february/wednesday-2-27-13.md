@@ -1,0 +1,2 @@
+- change all model instantiations to use findOrCreate()
+- change all uses of this.make to use $('span', {});
